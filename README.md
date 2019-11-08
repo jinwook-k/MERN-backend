@@ -18,5 +18,6 @@ jwtSecret=sl_myJwtSecret
 npm run server
 ```
 
+Code credit goes to: https://github.com/bradtraversy/mern_shopping_list    
 
-
+**Only difference is using .env instead of a config folder and this repo only includes the backend code.**
