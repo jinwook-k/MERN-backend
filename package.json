@@ -1,0 +1,27 @@
+{
+  "name": "mern-backend-boiler",
+  "version": "1.0.0",
+  "description": "The backend boilerplate for this MERN stack app sample.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "Jin",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^3.6.0",
+    "config": "^3.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
